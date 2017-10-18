@@ -1,0 +1,466 @@
+﻿<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <title>DevNet IT Custom Software development</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software Developer Skills Web page">
+    <meta name="author" content="Tiago Santos">
+
+    <link rel="stylesheet" href="assets/js/jquery-ui/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="themes/base/dialog.css">
+
+ <script src="assets/js/jquery-3.0.0.min.js"></script>
+    <script src="assets/js/jquery-ui/jquery-ui.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+
+   <script type="text/javascript">
+    var myDiag = $('#my-dialog');
+    $(function () {
+        //alert($('#my-dialog'));
+    });
+
+    function openModal(url, winWidth)
+    {
+
+    myDiag = $('#my-dialog').dialog({
+    autoOpen: false,
+    width: winWidth,
+    resizable: false,
+    modal: true
+    });
+    myDiag.load(url, function () {
+    myDiag.dialog('open');
+    }); return false;
+    }
+
+    function showContact()
+    {
+        openModal("contact.php", 400);
+    }
+
+    </script>
+
+</head>
+
+<body>
+    <div id="my-dialog"></div>
+    <!-- ******HEADER****** -->
+    <header class="header">
+        <div class="container">
+            <img class="profile-image img-responsive pull-left" src="assets/images/logo.jpg" alt="James Lee" />
+            <div class="profile-content pull-left">
+                <h1 class="name">DevNet IT</h1>
+                <h2 class="desc">Custom Software Development</h2>
+                <ul class="social list-inline">
+                    <!--<li><a href="https://www.linkedin.com/in/tiago-santos-32916228"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>  <li><a href="#"><i class="fa fa-github-alt"></i></a></li>                  -->
+                    <li><a href="https://www.linkedin.com/in/tiago-santos-32916228"><i class="fa fa-linkedin"></i></a></li>
+
+                    <!--<li class="last-item"><a href="#"><i class="fa fa-hacker-news"></i></a></li>-->
+                </ul>
+            </div><!--//profile-->
+            <div class="pull-right"><a class="btn btn-cta-primary" href="#ContactForm" style="padding-right: 10px;"><i class="fa fa-paper-plane"></i> Contact Me</a>
+            <a class="btn btn-cta-primary" href="tel:7864830225"><i class="fa fa-phone"></i> Call Me</a></div>
+        </div><!--//container-->
+    </header><!--//header-->
+
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-md-8 col-sm-12 col-xs-12">
+                <section class="about section">
+                    <div class="section-inner">
+                        <h2 class="heading">About Tiago Santos (Founder)		</h2>
+                        <div class="content">
+                            <p>I have a degree in Systems Information  and over 10 years of experience in system developing, 8 of these years using .NET, ASP.NET, MVC versions 4/5, C #, Azure platform, WEBSERVICE.  I have worked with Oracle, MS Sql Server, MySql and pgsql data base. I also have experience with SAP integration, Java, j2ee, struts, springs, hibernate, PHP, ASP 3.0, Integration Service (ETL). </p>
+
+        <p>I had the opportunity to participate in teams of well known companies in Brazil and around the world such as: Accenture (outsourcing company), Brasal Refrigerantes (bottler of Coca-cola company) and Indra (a global software, technology and innovation service company). In these companies, I collaborated in national-scale systems in government ministries, Brazilian agencies and Brazilian telecommunications companies.</p>
+
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+
+               <section class="latest section">
+                    <div class="section-inner">
+                        <h2 class="heading">Latest Projects</h2>
+                        <div class="content">
+
+                            <div class="item featured text-center">
+                                <h3 class="title"><a href="http://shn.azurewebsites.net" target="_blank">Sharing Hands NetWork</a></h3>
+                                <p class="summary"> Responsive website for  charity organizations and Volunteers using Bootstrap, ASP.net MVC, Entity Framework DataBase MS Sql Server Hosted in azure platform.</p>
+                                <div class="featured-image">
+                                    <a href="http://shn.azurewebsites.net" target="_blank">
+                                    <img class="img-responsive project-image" src="assets/images/projects/shnwebsite.PNG" alt="project name" />
+                                    </a>
+                                    <div class="ribbon">
+                                        <div class="text">New</div>
+                                        </div>
+                                    </div>
+
+                             <!--   <div class="desc text-left">
+                                    <p>You can promote your main project here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
+                                    <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
+                                </div>//desc-->
+                                <a class="btn btn-cta-secondary" href="http://www.marblequalityllc.com/" target="_blank"><i class="fa fa-thumbs-o-up"></i> Back my project</a>
+                            </div><!--//item-->
+                            <hr class="divider" />
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="http://www.marblequalityllc.com/" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/projects/mablequality.PNG" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="http://www.marblequalityllc.com" target="_blank">Marble Quality WebSite</a></h3>
+                                    <p>New Online Presence and catalog, wordpress customization.</p>
+                                    <p><a class="more-link" href="http://www.marblequalityllc.com" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                </div><!--//desc-->
+                            </div><!--//item-->
+
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="http://dreamhighr.devnetti.net/" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/projects/landingDH.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="http://dreamhighr.devnetti.net/" target="_blank">DreamHighr - Human Resouce DataBase</a></h3>
+                                    <p>HR platform integration with IBM alchemy, Hosted in IBM softlayer.</p>
+                                    <p><a class="more-link" href="http://dreamhighr.devnetti.net/" target="_blank"><i class="fa fa-external-link"></i> Check it out!</a></p>
+                                </div><!--//desc-->
+                            </div><!--//item-->
+
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="http://fbts.azurewebsites.net/" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/projects/InventoryISN.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="http://fbts.azurewebsites.net/" target="_blank">Inventory System</a></h3>
+                                    <p>Software hosted in Azure Cloud computing to control internal inventory for ISN.</p>
+                                    <p><a class="more-link" href="http://fbts.azurewebsites.net/" target="_blank"><i class="fa fa-external-link"></i> Check it out!</a></p>
+                                </div><!--//desc-->
+                            </div><!--//item-->
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/projects/project-2.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/" target="_blank">Other project - Designed for Mobile Apps</a></h3>
+                                    <p> I have other projects that have integration with Twilio and Stripe (Text Message and Payment Gateways) .
+WebApi for mobile App.
+</p>
+                                    <p><a class="more-link" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                </div><!--//desc-->
+                            </div><!--//item-->
+
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+
+            <!--/    <section class="projects section">
+                    <div class="section-inner">
+                        <h2 class="heading">Other Projects</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title"><a href="#">Project Title Cras Lacus</a></h3>
+                                <p class="summary">Provide a brief description of your project. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatu.</p>
+                                <p><a class="more-link" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                            </div>
+                            <div class="item">
+                                <h3 class="title"><a href="#">Project Title Cras eget lacus</a> <span class="label label-theme">Open Source</span></h3>
+                                <p class="summary">Provide a brief description of your project. Maecenas ornare ultricies risus, in fermentum augue consectetur in. Vestibulum vitae mauris iaculis, sollicitudin velit in, molestie nulla. </p>
+                                <p><a class="more-link" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
+                            </div>
+                            <div class="item">
+                                <h3 class="title"><a href="#">Project Title Maecenas Ornare</a> <span class="label label-theme">Open Source</span></h3>
+                                <p class="summary">Provide a brief description of your project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel purus enim. Etiam tortor felis, fermentum ac ultrices sed.</p>
+                                <p><a class="more-link" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
+                            </div>
+
+                            <a class="btn btn-cta-secondary" href="#">More on CoderWall <i class="fa fa-chevron-right"></i></a>
+
+                        </div>
+                    </div>
+                </section>  -->
+
+                <section class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">Work Experience</h2>
+                        <div class="content">
+                          <div class="item">
+                              <h3 class="title">Senior Dotnet Developer - <span class="place"><a href="http://www.redvector.com">RedVector.com</a></span> <span class="year">since 2016</span></h3>
+                              <p>C# MVC ASP.net Developer, maintenance and new projects for <a href="http://www.learnsmartsystems.com">LearnSmat</a></p>
+                          </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Lead Developer - <span class="place"><a href="http://www.caixaseguradora.com.br/Paginas/home-geral.aspx">Par Technology</a></span> <span class="year">(2013 - 2014)</span></h3>
+                                <p>Lead developer of Software maintenance Team, keeping running all legacy systems for Caixa Seguros (Insurance Company)</p>
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="title">Systems integrator - <span class="place"><a href="http://www.brasal.com.br/refrigerantes/">Brasal Refriegerantes - Coca-Cola Bottler</a></span> <span class="year">(2011 - 2013)</span></h3>
+                                <p>Integration between legacy systems and SAP, Technologies used: C#, ASP.net, SAP Connector, Windows services and Webservice. Remote project in 2012 last for 8 months.</p>
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="title">Software Engineer - <span class="place"><a href="#">Accenture</a></span> <span class="year">(2007 - 2008)</span></h3>
+                                <p>Java developer at Celula Java Accenture, Oi Telecom Project.</p>
+                            </div><!--//item-->
+
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+                <section class="experience section" id="ContactForm">
+                    <div class="section-inner">
+                        <h2 class="heading">Contact</h2>
+                        <div class="content">
+                          <!-- Contact Form -->
+              						<div class="contact-form">
+              							<form class="form" name="enq" method="post" action="mail.php">
+              								<div class="row">
+              									<div class="form-group col-md-12">
+              										<input type="text" name="name" class="form-control" id="first-name" placeholder="Name" required="required">
+              									</div>
+              									<div class="form-group col-md-12">
+              										<input type="email" name="email" class="form-control" id="email" placeholder="Email" required="required">
+              									</div>
+                                <div class="form-group col-md-12">
+              										<input type="phone" name="phone" class="form-control" id="phone" placeholder="Phone Number" required="required">
+              									</div>
+              									<div class="form-group description col-md-12 mbnone">
+              										<textarea rows="3" name="message" class="form-control" id="description" placeholder="Message" required="required"></textarea>
+              									</div>
+              									<div class="col-md-12">
+              										<div class="actions text-center">
+              											<input type="submit" value="SUBMIT" name="submit" class="btn btn-cta-primary" title="Submit Your Message!">
+              										</div>
+              									</div>
+              								</div>
+              							</form>
+              						</div>
+              						<!-- Contact Form -->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section>
+
+            </div><!--//primary-->
+            <div class="secondary col-md-4 col-sm-12 col-xs-12">
+                 <aside class="info aside section">
+                    <div class="section-inner">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Tampa FL, US</li>
+                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">tiago@devnetti.com</a></li>
+                                <li><i class="fa fa-headphones"></i><span class="sr-only">Phone:</span><a href="#">(786) 483-0225</a></li>
+                                <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">http://www.devnetti.com</a></li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//aside-->
+
+                <aside class="skills aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <p class="intro">
+                                C#, ASP.NET MVC, HTML, JavaScript, bootstrap, Jquery, entity framework, Microsoft Azure platform, Linq, Integration Service</p>
+
+                            <div class="skillset">
+
+                                <div class="item">
+                                    <h3 class="level-title">C#<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info...">Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>
+                                    </div><!--//level-bar-->
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">Javascript &amp; jQuery<span class="level-label">Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>
+                                    </div><!--//level-bar-->
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">MS SQL Server<span class="level-label">Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>
+                                    </div><!--//level-bar-->
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">HTML5, CSS3<span class="level-label">Good</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="85%">
+                                        </div>
+                                    </div><!--//level-bar-->
+                                </div><!--//item-->
+
+
+
+                                <p><a class="more-link" href="#"><i class="fa fa-external-link"></i> More on LikedIn</a></p>
+                            </div>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
+                <aside class="testimonials aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Testimonials</h2>
+                        <div class="content">
+                            <div class="item">
+                                <blockquote class="quote">
+                                    <p><i class="fa fa-quote-left"></i>Tiago is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!</p>
+                                </blockquote>
+                                <p class="source"><span class="name">Corey Hubband</span><br /><span class="title">CEO DreamHighr</span></p>
+                            </div><!--//item-->
+
+                            <p><a class="more-link" href="#"><i class="fa fa-external-link"></i> More on Linkedin</a></p>
+
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
+                <aside class="education aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> Bachelor’s degree in System’s Information </h3>
+                                <h4 class="university">Anhanguera University Brazil <span class="year">Graduated in 2007</span></h4>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> Technical High School, Electronics Technician </h3>
+                                <h4 class="university">Brasilia Technical School <span class="year">(2000)</span></h4>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
+                <aside class="languages aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Languages</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                               <li class="item">
+                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>Spanish:</strong></span>
+                                    <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>Portuguese:</strong></span>
+                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
+                                </li><!--//item-->
+
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
+                <aside class="blog aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Latest Blog Posts</h2>
+                        <p>You can use Sascha Depold's <a href="https://github.com/sdepold/jquery-rss" target="_blank">jQuery RSS plugin</a> to pull in your blog post feeds.</p>
+                        <div id="rss-feeds" class="content">
+
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
+                <aside class="list music aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Favourite coding music</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-headphones"></i> <a href="#">Etiam hendrerit urna nunc</a></li>
+                                <li><i class="fa fa-headphones"></i> <a href="#">Ut sollicitudin in mauris non auctor</a></li>
+                                <li><i class="fa fa-headphones"></i> <a href="#">Etiam hendrerit urna nunc</a></li>
+                                <li><i class="fa fa-headphones"></i> <a href="#">Duis et felis bibendum</a></li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
+                <aside class="list conferences aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Conferences</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-calendar"></i> <a href="https://developer.apple.com/wwdc/" target="_blank">WWDC 2014</a> (San Francisco)</li>
+                                <li><i class="fa fa-calendar"></i> <a href="http://hive.aigaseattle.org/">Hive</a> (Seattle)</li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
+                <aside class="credits aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Credits</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><a href="http://getbootstrap.com/" target="_blank"><i class="fa fa-external-link"></i> Bootstrap</a></li>
+                                <li><a href="http://fortawesome.github.io/Font-Awesome/" target="_blank"><i class="fa fa-external-link"></i> FontAwesome</a></li>
+                                <li><a href="http://jquery.com/" target="_blank"><i class="fa fa-external-link"></i> jQuery</a></li>
+                                <li><a href="https://github.com/IonicaBizau/github-calendar" target="_blank"><i class="fa fa-external-link"></i> GitHub Calendar Plugin</a></li>
+
+                                <li><a href="http://caseyscarborough.com/projects/github-activity/" target="_blank"><i class="fa fa-external-link"></i> GitHub Activity Stream</a></li>
+
+                                <li><a href="https://github.com/sdepold/jquery-rss" target="_blank"><i class="fa fa-external-link"></i> jQuery RSS</a></li>
+
+                                <li>Profile image: <a href="https://www.flickr.com/photos/dotbenjamin/2577394151" target="_blank">Ben Smith</a></li>
+                                <li>iPad and iPhone mocks: <a href="https://dribbble.com/perlerar" target="_blank">Regy Perlera</a></li>
+
+                            </ul>
+
+                            <hr/>
+
+                             <p>This responsive portfolio template is handcrafted by UX designer <a href="https://www.linkedin.com/in/xiaoying" target="_blank">Xiaoying Riley</a> at <a href="http://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a> for developers and is <strong>FREE</strong> under the <a class="dotted-link" href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution 3.0 License</a></p>
+                             <p>We will improve or add new features to this template based on users' feedback so follow us on twitter to get notified when a new version is out!</p>
+                            <a class="btn btn-cta-secondary btn-follow" href="https://twitter.com/3rdwave_themes" target="_blank"><i class="fa fa-twitter"></i> Follow us</a>
+                            <a class="btn btn-cta-primary btn-download" href="http://themes.3rdwavemedia.com/website-templates/free-responsive-website-template-for-developers/" target="_blank"><i class="fa fa-download"></i> I want to download</a>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
+            </div><!--//secondary-->
+        </div><!--//row-->
+    </div><!--//masonry-->
+
+    <!-- ******FOOTER****** -->
+    <footer class="footer">
+        <div class="container text-center">
+                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
+    <!-- github calendar plugin -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+</html>
