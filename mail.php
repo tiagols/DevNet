@@ -49,7 +49,7 @@ require 'phpmailer/PHPMailerAutoload.php';
         $mail->Username   = "tiagols1@gmail.com";  // username
         $mail->Password   = "Tls070782";            // password
 
-        $mail->SetFrom('tiagols1@gmail.com', 'Test');
+        $mail->SetFrom('tiagols1@gmail.com', 'Contact Form');
 
         $mail->Subject    = $subject;
 
@@ -57,7 +57,7 @@ require 'phpmailer/PHPMailerAutoload.php';
 
         $address = "info@devnetti.com";
         $mail->AddAddress($address, "Info");
-        $mail->AddAddress("tiago@devnetti.com", "Tiago Santos");
+        //$mail->AddAddress("tiago@devnetti.com", "Tiago Santos");
 
         if(!$mail->Send()) {
           echo "Mailer Error: " . $mail->ErrorInfo;
